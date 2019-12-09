@@ -1,0 +1,9 @@
+@mixin clear-indent {
+  margin: 0;
+  padding: 0;
+}
+
+@mixin clear-list {
+  @include clear-indent;
+  list-style: none;
+}
